@@ -1,2 +1,5 @@
 # CLP
-Repositório para o trabalho 1 de CLP: Implementação de uma interface gráfica com a utilização de 2 linguagens de programação.
+
+Para executar a aplicação é necessário possuir Python 3.10 e o compilador GCC.
+Digite no terminal dentro da pasta:
+"make -f install"
