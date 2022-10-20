@@ -1,0 +1,16 @@
+.PHONY: all compilingC interpretingPy
+
+CC = gcc 
+PY = python
+
+all: compilingC interpretingPy
+
+compilingC:
+	@echo "Compiling mandelbrot_func.c..."
+	${CC} -shared -o mandelbrot_func.so -fPIC mandelbrot_func.c
+
+interpretingPy:
+	@echo "Interpreting util..."
+	${PY} -m util
+	${PY} main.py
+

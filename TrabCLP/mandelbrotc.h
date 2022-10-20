@@ -1,0 +1,1 @@
+void mandelbrot(int iR, int iG, int iB, int eR, int eG, int eB);
